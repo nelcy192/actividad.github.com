@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="comprension_lexica" version="0.1.3">
+ <settings>
+  <title>comprensión léxica</title>
+  <revision description="created" date="4/30/24" />
+  <descriptors />
+  <meta_langs>es</meta_langs>
+  <descriptions>
+   <description language="es" />
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="Léxico" />
+  <item name="Palabra" />
+ </sequence>
+ <activities>
+  <activity class="@textGrid.CrossWord" name="Léxico" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <color background="0x66CCFF" />
+     </style>
+     <p>Desarrolla el crucigrama con las palabras que se encuentran en el libro "Canta palabras"</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="canta.png" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+   </settings>
+   <textGrid rows="11" columns="12" cellWidth="50.0" cellHeight="35.0" border="true">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>****P******</row>
+     <row>****A******</row>
+     <row>*MAMBRÚ****</row>
+     <row>*A**L******</row>
+     <row>*D**I******</row>
+     <row>*E**T******</row>
+     <row>*R*COMPADRE</row>
+     <row>*O*U**I****</row>
+     <row>*S*C**M****</row>
+     <row>***Ú**P****</row>
+     <row>******Ó****</row>
+     <row>******N****</row>
+    </text>
+   </textGrid>
+   <cells rows="1" cols="3" cellWidth="200.0" cellHeight="60.0" border="true" id="acrossClues">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell id="12" item="1" />
+    <cell id="12" item="0" />
+    <cell id="11" item="1" />
+    <cell id="11" item="0" />
+    <cell id="11" item="1" />
+    <cell id="10" item="1" />
+    <cell id="10" item="0" />
+    <cell id="10" item="1" />
+    <cell id="10" item="2" />
+    <cell id="6" item="2" />
+    <cell id="6" item="0" />
+    <cell id="6" item="1">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="17" />
+      <color background="0x00CCCC" />
+     </style>
+     <p>...cómprame un coco. </p>
+    </cell>
+    <cell id="6" item="4" />
+    <cell id="6" item="5" />
+    <cell id="6" item="2" />
+    <cell id="6" item="6" />
+    <cell id="6" item="7" />
+    <cell id="6" item="5" />
+    <cell id="9" item="2" />
+    <cell id="9" item="1" />
+    <cell id="9" item="0" />
+    <cell id="9" item="3" />
+    <cell id="9" item="2" />
+    <cell id="9" item="4" />
+    <cell id="8" item="6">
+     <style>
+      <color background="0x66CCFF" />
+     </style>
+     <p>Que pase el rey,</p>
+     <p>que ha de pasar,</p>
+     <p>que el hijo del conde</p>
+     <p>se ha de quedar. Es una...</p>
+    </cell>
+    <cell id="8" item="3" />
+    <cell id="8" item="0" />
+    <cell id="8" item="2" />
+    <cell id="8" item="1" />
+    <cell id="8" item="5" />
+    <cell id="8" item="3" />
+    <cell id="0" item="1" />
+    <cell id="0" item="0" />
+    <cell id="7" item="3" />
+    <cell id="7" item="0" />
+    <cell id="7" item="2" />
+    <cell id="7" item="1" />
+    <cell id="7" item="5" />
+    <cell id="7" item="6" />
+    <cell id="7" item="3" />
+    <cell id="7" item="7" />
+    <cell id="7" item="8" />
+    <cell id="7" item="6" />
+    <cell id="4" item="2" />
+    <cell id="4" item="0" />
+    <cell id="4" item="1" />
+    <cell id="4" item="4" />
+    <cell id="4" item="5" />
+    <cell id="4" item="2" />
+    <cell id="4" item="6" />
+    <cell id="4" item="7" />
+    <cell id="4" item="5" />
+    <cell id="4" item="8" />
+    <cell id="3" item="2" />
+    <cell id="3" item="0" />
+    <cell id="3" item="1" />
+    <cell id="3" item="2" />
+    <cell id="3" item="3" />
+    <cell id="3" item="4" />
+    <cell id="2" item="5">
+     <p>El final del refran Pablito clavo un clavito es</p>
+    </cell>
+    <cell id="2" item="0">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="17" />
+      <color background="0x00CCCC" />
+     </style>
+     <p>se fue a la guerra</p>
+     <p>qué dolor, qué dolor, qué pena.</p>
+    </cell>
+    <cell id="2" item="0" />
+    <cell id="2" item="1" />
+    <cell id="2" item="3" />
+    <cell id="2" item="2" />
+    <cell id="5" item="7">
+     <p> es un muñeco</p>
+     <p>muy lindo de cartón</p>
+     <p>se lava la carita</p>
+     <p>con agua y con jabón.</p>
+    </cell>
+    <cell id="5" item="2" />
+    <cell id="5" item="0" />
+    <cell id="5" item="1" />
+    <cell id="5" item="2" />
+    <cell id="5" item="4" />
+    <cell id="5" item="5" />
+    <cell id="5" item="3" />
+    <cell id="1" item="3">
+     <style>
+      <color background="0x66CCFF" />
+     </style>
+    </cell>
+    <cell id="1" item="1" />
+    <cell id="1" item="0" />
+    <cell id="1" item="1" />
+    <cell id="1" item="3" />
+    <cell id="0" />
+    <cell id="1" />
+    <cell id="2" />
+   </cells>
+   <cells rows="1" cols="3" cellWidth="200.0" cellHeight="60.0" border="true" id="downClues">
+    <style />
+    <cell id="10" item="2" />
+    <cell id="11" item="0" />
+    <cell id="11" item="0" />
+    <cell id="10" item="1">
+     <style>
+      <color background="0x66CCFF" />
+     </style>
+     <p>Se escribe en verso y se usa para expresar sentimientos.</p>
+    </cell>
+    <cell id="10" item="0" />
+    <cell id="10" item="1" />
+    <cell id="7" item="1" />
+    <cell id="7" item="0" />
+    <cell id="7" item="1" />
+    <cell id="7" item="2" />
+    <cell id="7" item="2" />
+    <cell id="9" item="1" />
+    <cell id="9" item="0" />
+    <cell id="9" item="1" />
+    <cell id="8" item="1" />
+    <cell id="8" item="0" />
+    <cell id="8" item="1" />
+    <cell id="8" item="3" />
+    <cell id="8" item="2" />
+    <cell id="6" item="2" />
+    <cell id="6" item="1">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="17" />
+      <color background="0x00CCCC" />
+     </style>
+     <p> ...es un muñeco</p>
+     <p>muy lindo de cartón</p>
+     <p> se lava la carita</p>
+     <p>con agua y con jabón.</p>
+    </cell>
+    <cell id="6" item="0" />
+    <cell id="6" item="2" />
+    <cell id="6" item="4" />
+    <cell id="6" item="3" />
+    <cell id="6" item="5" />
+    <cell id="4" item="1" />
+    <cell id="4" item="0" txtAlign="middle,bottom" imgAlign="middle,bottom">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="17" />
+      <color background="0x00CCCC" />
+     </style>
+     <p>clavó un clavito</p>
+     <p>un clavito clavó Pablito.</p>
+    </cell>
+    <cell id="4" item="1" />
+    <cell id="4" item="3" />
+    <cell id="4" item="2" />
+    <cell id="4" item="4" />
+    <cell id="3" item="2" />
+    <cell id="3" item="1">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="17" />
+      <color background="0x00CCCC" />
+     </style>
+     <p>...cantaba la rana.</p>
+    </cell>
+    <cell id="3" item="0" />
+    <cell id="3" item="2" />
+    <cell id="3" item="3" />
+    <cell id="3" item="4" />
+    <cell id="2" item="1" />
+    <cell id="2" item="0" />
+    <cell id="2" item="1" />
+    <cell id="2" item="2" />
+    <cell id="5" item="2" />
+    <cell id="5" item="1" />
+    <cell id="5" item="0" />
+    <cell id="5" item="2" />
+    <cell id="5" item="4" />
+    <cell id="5" item="3" />
+    <cell id="5" item="5" />
+    <cell id="1" item="1" />
+    <cell id="1" item="0">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="17" />
+      <color background="0x00CCCC" />
+     </style>
+     <p>Aserrín, aserrán,</p>
+     <p>los...</p>
+    </cell>
+    <cell id="1" item="1" />
+    <cell id="1" item="2" />
+    <cell id="0" item="0" />
+    <cell id="0" />
+    <cell id="1" />
+    <cell id="2" />
+   </cells>
+   <layout position="AB" wildTransparent="true" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="Palabra" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Times New Roman" size="17" />
+      <color background="0x00CCCC" />
+     </style>
+     <p>Desarrolla la sopa de letras de la canción "Arroz con leche"</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="arroz.png" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+   </settings>
+   <textGrid rows="11" columns="10" cellWidth="30.0" cellHeight="29.0" border="true">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>ADRCONTARBN</row>
+     <row>REETSHJKLÑQ</row>
+     <row>RSSGEÑPBVWS</row>
+     <row>OUOHÑJUCNXS</row>
+     <row>ZYCBORDARRG</row>
+     <row>QERDRZXTRIR</row>
+     <row>LOFYIXRFGHE</row>
+     <row>CVZXTBGDFTE</row>
+     <row>QGVCAPITALL</row>
+     <row>MULTIPLICAR</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">ARROZ</clue>
+    <clue id="1">LECHE</clue>
+    <clue id="2">SEÑORITA</clue>
+    <clue id="3">CAPITAL</clue>
+    <clue id="4">COSER</clue>
+    <clue id="5">BORDAR</clue>
+    <clue id="6">LEER</clue>
+    <clue id="7">CONTAR</clue>
+    <clue id="8">MULTIPLICAR</clue>
+   </clues>
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="arroz.png" file="arroz.png" />
+  <media name="canta.png" file="canta.png" />
+ </mediaBag>
+</JClicProject>
+
